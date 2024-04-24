@@ -1,4 +1,4 @@
-const upgradeScore = require("./UpgradeScore");
+const upgradeScore = require("./UpgradeScore.js");
 
 test("Test that score of student increase by the number of point added", ()=>{
     let input = [85, 92, 78, 88, 95];
