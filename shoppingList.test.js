@@ -9,9 +9,9 @@ test("Healthy Food", ()=>{
         { name: 'Soda', category: 'Beverages', isHealthy: false }
     ];
 
-    let healthyFood = healthyFood(shoppingList);
+    let result = healthyFood(shoppingList);
 
-    expect(healthyFood).toEqual([
+    expect(result).toEqual([
         { name: 'Apples', category: 'Fruits', isHealthy: true },
         { name: 'Carrots', category: 'Vegetables', isHealthy: true },
         { name: 'Greek Yogurt', category: 'Dairy', isHealthy: true }
